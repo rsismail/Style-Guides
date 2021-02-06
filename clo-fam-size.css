@@ -1,5 +1,28 @@
 :root {
-    --blue:#000
-    --white: #ffffff; 
+    --display12:'Louis Heavy';
+    --display3:'Louis Regular';
+    --headline1234:'Louis Bold';
+    --headline56:
+
+    --color: rgba(77, 81, 91, 1); 
+    --font456:'Roboto', sans-serif;;
   }
   /* var(--blue)   */
+  @font-face {
+    font-family:'Louis Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Louis Regular'), url('louisregular.woff') format('woff');
+    }
+    @font-face {
+        font-family: 'Louis Bold';
+        font-style: normal;
+        font-weight: normal;
+        src: url('louisbold.woff') format('woff');
+        }
+     @font-face {
+            font-family: 'LouisHeavy';
+            font-style: normal;
+            font-weight: normal;
+            src: url('louisheavy.woff') format('woff');
+            }
